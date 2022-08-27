@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+.body {
+    background-image: url(../bg-body.png);
+    margin: 0px 80px;
+}
+.access {
+    text-decoration: none;
+    color: #666;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+}
+.access1 {
+    margin: 20px;
+}
+.access2 {
+    text-decoration-line: none;
+    color: #666;
+}
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    border-radius: 90px;
+    width: 180px;
+}
+.main-nav {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.navegador {
+    padding: 10px;
+    background-color: #666;
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 0px;
+}
+.navegador2 {
+    color: aliceblue;
+    text-decoration-line: none;
+}
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: stretch;
+    margin: 10px 0px;
+    width: 1180px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.product {
+    width: 380px;
+    margin: 15px 0px;
+}
+.img-product {
+    width: 380px;
+}
+.more {
+    background-color: #444;
+    text-decoration-line: none;
+    color: aliceblue;
+    padding: 8px 14px;
+}
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(200, 0, 0);
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.footer {
+    padding: 15px;
+    text-decoration-line: none;
+}
+.footer2 {
+    text-decoration-line: none;
+    color: aliceblue;
+}
