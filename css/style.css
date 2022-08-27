@@ -31,6 +31,7 @@
 .logo {
     border-radius: 90px;
     width: 180px;
+    margin: 15px 0px;
 }
 .main-nav {
     list-style: none;
@@ -44,32 +45,46 @@
     background-color: #666;
     height: 50px;
     width: 180px;
-    margin: 10px;
-    justify-content: space-between;
+    margin: 15px 10px 10px 10px;
+    justify-content: space-around;
     text-align: center;
     padding: 15px 0px;
 }
-.navegador2 {
+.estilonavegador {
     color: aliceblue;
     text-decoration-line: none;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 .banner {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: stretch;
-    margin: 10px 0px;
+    justify-content: center;
+    margin: 15px 0px;
     width: 1180px;
 }
 .products {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
-.product {
+.product1 {
     width: 380px;
-    margin: 15px 0px;
+    margin: 15px 10px 15px 0px;
+}
+.product2 {
+    width: 380px;
+    margin: 15px 10px;
+}
+.product3 {
+    width: 380px;
+    margin: 15px 0px 15px 10px;
 }
 .img-product {
     width: 380px;
